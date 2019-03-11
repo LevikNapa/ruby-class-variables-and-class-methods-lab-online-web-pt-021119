@@ -22,5 +22,5 @@ class Song
     @@genres << genre
     @@artists << artist
   end
-  
+  def 
 end 
