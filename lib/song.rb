@@ -8,10 +8,10 @@ class Song
       @@count 
     end
     def self.genre
-       @@genres = genre
+       @@genres.uniq
     end
     def self.artists
-      @@artists = artist
+      @@artists.uniq
     end
   
   def initialize(name, artist, genre)
